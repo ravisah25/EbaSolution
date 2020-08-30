@@ -39,9 +39,9 @@ module.exports.salaryData = async (data) => {
                 "firstname": "$firstname",
                 "lastname": "$lastname",
                 "useremail": "$useremail",
-                "Minimum": { "$min": "$mixData.amount" },
-                "Maximum": { "$max": "$mixData.amount" },
-                "Average": { "$avg": "$mixData.amount" }
+                "MinimumSalary": { "$min": "$mixData.amount" },
+                "MaximumSalary": { "$max": "$mixData.amount" },
+                "AverageSalary": { "$avg": "$mixData.amount" }
 
             }
         }
